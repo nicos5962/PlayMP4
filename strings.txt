@@ -1,0 +1,10 @@
+# String file for PlayMP4 plugin
+
+PLUGIN_PLAYMP4
+	EN	Play MP4
+
+PLUGIN_PLAYMP4_DESC
+	EN	Play the audio of MP4 files that hold video, with tags read by ffprobe like PlayAVI, the Discogs release id as album id and scanner-safe registration. MP4 files without video stay with core
+
+MP4V
+	EN	MP4 with video

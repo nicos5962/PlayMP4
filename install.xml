@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<extension>
+    <name>PLUGIN_PLAYMP4</name>
+    <module>Plugins::PlayMP4::Plugin</module>
+    <version>1.0</version>
+    <description>PLUGIN_PLAYMP4_DESC</description>
+    <creator>nicos</creator>
+    <defaultState>enabled</defaultState>
+    <importmodule>Plugins::PlayMP4::Importer</importmodule>
+    <icon>plugins/PlayMP4/html/images/icon.svg</icon>
+    <type>2</type>
+    <targetApplication>
+        <id>SlimServer</id>
+        <minVersion>7.7</minVersion>
+        <maxVersion>*</maxVersion>
+    </targetApplication>
+</extension>
